@@ -111,7 +111,7 @@
 - On the Raspberry Pi, open the web browser and navigate to this Github 
 - Once here, git clone this repository onto your Raspberry Pi
 - Then, move the `RPi_Downloads.sh` file onto your **DESKTOP**. You can do this by clicking and dragging, or you can do it through terminal using `mv` commands. 
-- After, open Terminal and `cd` into your Desktop. Type in `sudo bash RPi\_Downloads.sh`
+- After, open Terminal and `cd` into your Desktop. Type in `sudo bash RPi_Downloads.sh`
 - This will run the bash file, which will download all things Spatial Toolbox related to your Raspberry Pi. This can take anywhere between 10-25min depending on your internet speed and SD card size
 - When the download finishes completely, close your Terminal window, and open a new Terminal window
 - Into this new Terminal window, type `sudo chown –R $USER /home/pi`. This will give you permissions to move, edit, and run files on your Raspberry Pi.
