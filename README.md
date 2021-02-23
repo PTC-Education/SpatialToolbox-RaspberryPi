@@ -116,7 +116,7 @@
 - When the download finishes completely, close your Terminal window, and open a new Terminal window
 - Into this new Terminal window, type `sudo chown –R $USER /home/pi`. This will give you permissions to move, edit, and run files on your Raspberry Pi.
 
-**Note:** To run the server, `cd` into your RaspberryPi-SpatialToolbox folder that will be downloaded, and then `cd` into the vuforia-spatial-edge-server folder. You can then run `node server` or `npm start` on the terminal. 
+**Note:** To run the server, `cd` into your RaspberryPi-SpatialToolbox folder that will be downloaded, and then `cd` into the vuforia-spatial-edge-server folder. You can then run `node server` or `npm start` on the terminal. **EXPLAINED IN STEP 5**
 
 </details>
 
