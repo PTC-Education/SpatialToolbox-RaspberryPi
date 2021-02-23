@@ -3,18 +3,9 @@
 </p>
 
 # **Table of Contents**
-1. Install Raspberry Pi OS onto a MicroSD Card
-2. Setup the Raspberry Pi
-3. Installing the Vuforia Spatial Edge Server
-4. Getting Onshape API Keys
-5. Running the Server
-6. Connecting the Spike Prime
-7. Using the Vuforia Spatial Toolbox App
-8. Placing Checkpoints
-
 
 <details>
-<summary><b># Step 1: Install Raspberry Pi OS onto a MicroSD Card</b></summary>
+<summary><b>Step 1: Install Raspberry Pi OS onto a MicroSD Card</b></summary>
 <br>
 
 - Go to [www.raspberrypi.org/software/](https://www.raspberrypi.org/software/) and download the Raspberry Pi Imager that works with your machine.
@@ -33,7 +24,7 @@
 </details>
 
 <details>
-<summary style="font-size: 20px;"> **Step 2: Setup the Raspberry Pi**</summary>
+<summary><b>Step 2: Setup the Raspberry Pi</b></summary>
 <br>
 
 **Note:** If you have previously set up a Raspberry Pi and have a preferred method, feel free to use that one. This is just one method.
@@ -114,7 +105,7 @@
 
 
 <details>
-<summary style="font-size: 20px;"> **Step 3: Installing the Vuforia Spatial Edge Server**</summary>
+<summary><b>Step 3: Installing the Vuforia Spatial Edge Server</b></summary>
 <br>
 
 - On the Raspberry Pi, open the web browser and go to this link: [https://drive.google.com/file/d/1CLea\_bsk0d81IvU6zzFXJFLZLabyAf\_N/view?usp=sharing](https://drive.google.com/file/d/1CLea_bsk0d81IvU6zzFXJFLZLabyAf_N/view?usp=sharing)
@@ -130,7 +121,7 @@
 
 
 <details>
-<summary style="font-size: 20px;"> **Step 4: Getting Onshape API Keys**</summary>
+<summary><b>Step 4: Getting Onshape API Keys</b></summary>
 <br>
 
 - Go to [dev-portal.onshape.com/keys](https://dev-portal.onshape.com/keys) and select the button in the upper right corner that says &quot;Create new API key&quot;.
@@ -160,7 +151,7 @@
 
 
 <details>
-<summary style="font-size: 20px;"> **Step 5: Running the Server**</summary>
+<summary><b>Step 5: Running the Server</b></summary>
 <br>
 
 - Connect the Spike Prime to the Raspberry Pi using one of the USB ports on the Raspberry Pi. Power on the Spike Prime.
@@ -205,7 +196,7 @@
 
 
 <details>
-<summary style="font-size: 20px;"> **Step 6: Connecting the Spike Prime**</summary>
+<summary><b>Step 6: Connecting the Spike Prime</b></summary>
 <br>
 
 **Note:** If you are not using a Spike Prime you can skip this step.
@@ -227,7 +218,7 @@
 
 
 <details>
-<summary style="font-size: 20px;"> **Step 7: Using the Vuforia Spatial Toolbox App**</summary>
+<summary><b>Step 7: Using the Vuforia Spatial Toolbox App</b></summary>
 <br>
 
 - If you don&#39;t already have the Vuforia Spatial Toolbox App, download it from the App Store. **Note:** It is only available on iOS currently.
@@ -266,7 +257,7 @@
 
 
 <details>
-<summary style="font-size: 20px;"> **Step 8: Placing Checkpoints**</summary>
+<summary><b>Step 8: Placing Checkpoints</b></summary>
 <br>
 
 - If it is not already running, run the server by going to the Raspberry Pi Terminal and running &quot;node server&quot;.
@@ -328,6 +319,13 @@
 
 </details>
 
+<br>
+## Troubleshooting
+Add common errors here. 
+
+<br>
+## Resources
+Check out our Youtube Tutorial's to use the Toolbox: **<a href="https://www.youtube.com/watch?v=3wkmBDgpb34&list=PLhL0fv9JyKMaWhaHmm21J6mgpp841zYYw">Using the Spatial Toolbox</a>**
 
 
 
