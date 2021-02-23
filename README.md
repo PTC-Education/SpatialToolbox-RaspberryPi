@@ -211,7 +211,7 @@
 <img src="Documentation-Images/Spike-Connected.png" width="700" height = "65">
 </p>
 
-- If you do not see this message, your Spike Prime is not connected. Restart the server by hitting control+c and running &quot;node server&quot; again. If you still do not see this message, double check your connections and restart the Spike Prime.
+- If you do not see this message, your Spike Prime is **not connected**. Restart the server by hitting control+c and running &quot;node server&quot; again. If you still do not see this message, double check your connections and restart the Spike Prime.
 - If you see the motor ports printed to the Terminal, your Spike Prime has connected properly.
 
 
