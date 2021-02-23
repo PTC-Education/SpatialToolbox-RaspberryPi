@@ -14,7 +14,7 @@
 
 
 <details>
-<summary style="font-size: 20px;"> **Step 1: Install Raspberry Pi OS onto a MicroSD Card**</summary>
+<summary style="font-size: 20px;"><b>Step 1: Install Raspberry Pi OS onto a MicroSD Card</b></summary>
 <br>
 
 - Go to [www.raspberrypi.org/software/](https://www.raspberrypi.org/software/) and download the Raspberry Pi Imager that works with your machine.
