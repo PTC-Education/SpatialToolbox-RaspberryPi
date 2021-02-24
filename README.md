@@ -187,6 +187,11 @@
   - _DocumentId._ This is the documentId of the Onshape document you wish to draw on. This is found after /document/ in the Onshape document&#39;s URL.
   - _WorkspaceId._ This is the workspaceId of the Onshape document you wish to draw on. (See step 6). This is found after /w/ in the Onshape document&#39;s URL.
   - _ElementId._ This is the elementId of the Onshape document you wish to draw on. (See step 6). This is found after /e/ in the Onshape document&#39;s URL.
+
+  <p align="center">
+  <img src="Documentation-Images/Onshape-IDs.png" width="700" height = "56">
+  </p>
+
   - _FeatureName_. This is the name of the feature you wish to create in Onshape.
   - _OnshapeOffsetX_. This is the horizontal distance in **Onshape&#39;s units** from the document origin you want to begin drawing. Note: the origin of your drawing on the Spatial Toolbox will be the center of the image target.
   - _OnshapeOffsetY_. This is the vertical distance in **Onshape&#39;s units** from the document origin you want to begin drawing. Note: the origin of your drawing on the Spatial Toolbox will be the center of the image target.
