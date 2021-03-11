@@ -264,7 +264,12 @@
   - If you are using the Spike Prime, make sure that it connects properly, as described in step 6.
 - Open the Vuforia Spatial Toolbox App on your phone and once it loads, point your phone at the image target for the interface you want to use.
   - If you are using the Spike Prime, **make sure the Spike connects before you open the app.**
-  - If you don't have the Spike Prime feedback pamphlet, we have an alternative image target. The image and its associated files are in a folder called "SpatialTargets" within the RaspberryPi-SpatialToolbox folder. On the Raspberry Pi, go to Terminal and run the server with "node server" if it is not already running. On the Raspberry Pi, go to "localhost:8080" in the web browser. You should see an object called "SpikeDraw". Click the button that says "Edit Target". Simply drag and drop the .zip file and .jpg file from SpatialTargets into the drop zone that appears on the web server. **Note:** the drop zone may disappear after dragging one of these files in. Reopen it and drag the second one in. This is now your SpikeDraw image target.
+  - If you are using a Spike Prime, but don't have the Spike Prime feedback pamphlet, we have an alternate image target. 
+    - The image and its associated files are in a folder called "SpatialTargets" within the RaspberryPi-SpatialToolbox folder. 
+    - On the Raspberry Pi, go to a Terminal window and run the server with "node server" if it is not already running. 
+    - On the Raspberry Pi, go to "localhost:8080" in the web browser. 
+    - You should see an object called "SpikeDraw". Click the button that says "Edit Target". 
+    - Simply drag and drop the .zip file and .jpg file from SpatialTargets into the drop zone that appears on the web server. **Note:** the drop zone may disappear after dragging one of these files in. Reopen it and drag the second one in. This is now your SpikeDraw image target.
 
 <p align="center">
 <img src="Documentation-Images/Draw-Image-Target.jpg" width="384" height="457"> <img src="Documentation-Images/Spike-Draw-Target.jpg" width="316" height="457">
