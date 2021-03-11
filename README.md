@@ -184,14 +184,7 @@
   - _imageToBaseY_ (Spike only). This is the vertical distance in **millimeters** from the center of your image target to the first joint of the Spike Prime robotic arm.
   - _link1Length_ (Spike only). This is the length in **millimeters** of the first linkage of the Spike Prime robotic arm. This is the length between the first and second joint of the robotic arm.
   - _link2Length_ (Spike only). This is the length in **millimeters** of the second linkage of the Spike Prime robotic arm. This is the length between the second joint and the end effector of the robotic arm.
-  - _DocumentId._ This is the documentId of the Onshape document you wish to draw on. This is found after /document/ in the Onshape document&#39;s URL.
-  - _WorkspaceId._ This is the workspaceId of the Onshape document you wish to draw on. (See step 6). This is found after /w/ in the Onshape document&#39;s URL.
-  - _ElementId._ This is the elementId of the Onshape document you wish to draw on. (See step 6). This is found after /e/ in the Onshape document&#39;s URL.
-
-  <p align="center">
-  <img src="Documentation-Images/Onshape-IDs.png" width="700" height = "56">
-  </p>
-
+  - _OnshapeURL._ This is the full URL of the Onshape document you want to be drawing on. Be sure to include the https:// in the beginning.
   - _FeatureName_. This is the name of the feature you wish to create in Onshape.
   - _OnshapeOffsetX_. This is the horizontal distance in **Onshape&#39;s units** from the document origin you want to begin drawing. Note: the origin of your drawing on the Spatial Toolbox will be the center of the image target.
   - _OnshapeOffsetY_. This is the vertical distance in **Onshape&#39;s units** from the document origin you want to begin drawing. Note: the origin of your drawing on the Spatial Toolbox will be the center of the image target.
