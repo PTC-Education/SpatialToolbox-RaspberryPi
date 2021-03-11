@@ -321,8 +321,18 @@
 
 
 ## Troubleshooting
-Add common errors here. 
+  
+If you are not seeing white cubes on your image target, follow these steps:
+- Check to make sure your server is running. The terminal on the Raspberry Pi should not be stopped. If it is stopped for some reason, type "node server" to get it running again.
+- Check to make sure the hardware interface is turned on when looking at the web server. See step 5 for more information.
+- While looking at the terminal, close the app on your phone and reopen it. You should see a flood of information as you open the app on your phone. If you don't see this, check that your phone is connected to the same Wifi as your Raspberry Pi. Additionally, check that you entered the IP and port address correctly into the developer settings of the app on your phone.
 
+If you are getting a 403 Error with regards to the Onshape API, follow these steps:
+- Check to make sure the Onshape URL is entered into the hardware interface you are using. Be sure to click the save button after entering the URL. If you have entered the URL correctly, restart the server by hitting ctrl+c in the terminal window and executing "node server".
+- Check that the API keys you made are for the same enterprise that your document is in. If you are working in cad.onshape.com, make sure you select "No enterprise".
+- Finally, check that you made the API keys on an account that has read, write, and delete access to the document URL you input.
+
+</details>
 ## Resources
 Check out our Youtube Tutorial's to use the Toolbox: <b><a href="https://www.youtube.com/watch?v=3wkmBDgpb34&list=PLhL0fv9JyKMaWhaHmm21J6mgpp841zYYw">Using the Spatial Toolbox</a></b>
 
