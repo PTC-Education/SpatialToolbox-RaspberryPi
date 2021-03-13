@@ -157,7 +157,7 @@
 <br>
 
 - Connect the Spike Prime to the Raspberry Pi using one of the USB ports on the Raspberry Pi. Power on the Spike Prime.
-- On the Raspberry Pi, open a new Terminal window and type &quot;cd Desktop/RaspberyPi-SpatialToolbox/vuforia-spatial-edge-server&quot;.
+- On the Raspberry Pi, open a new Terminal window and type &quot;cd Desktop/RaspberryPi-SpatialToolbox/vuforia-spatial-edge-server&quot;.
 - Run the command &quot;node server&quot; to start the server.
 - Once the server begins running, you should be able to go to localhost:8080 on the Raspberry Pi&#39;s internet app to view the spatial edge server. You can also access this same page from a machine on the same Wi-Fi network by going to the IP address of your Pi:8080. For example, 192.168.7.124:8080.
 - You should see a site that looks like the picture below. If you don&#39;t, make sure the server started without errors. 
