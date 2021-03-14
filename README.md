@@ -338,10 +338,10 @@ If you are getting a 403 Error with regards to the Onshape API, follow these ste
 - Check that the API keys you made are for the same enterprise that your document is in. If you are working in cad.onshape.com, make sure you select "No enterprise".
 - Finally, check that you made the API keys on an account that has read, write, and delete access to the document URL you input.
 
-If you are having trouble connecting the On button to the checkpoints, follow these steps:
-- The On button needs to be connected to the image target. This means that when you first drag the On button into your experience, you should be locked on to the image target.
-- If when you drag from the On button to the checkpoint, the checkpoint is red, this means your On button is not attached to the image target. Try dragging the On button to the trash and creating a new On button that is attached to your image target.
-- **Note:** When the On button is properly attached the image target, it will disappear when you are no longer locked onto the image target. It might be helpful then to place the On button close to your image target so you don't have to zoom out as much.
+If you are having trouble connecting the On Button to the checkpoints, follow these steps:
+- The On Button needs to be connected to the image target. This means that when you first drag the On Button into your experience, you should be locked on to the image target.
+- If when you drag from the On Button to the checkpoint, the checkpoint node is red, this means your On Button is not attached to the image target. Try dragging the On Button to the trash and creating a new On Button that is attached to your image target.
+- **Note:** When the On Button is properly attached the image target, it will disappear when you are no longer locked onto the image target. It might be helpful then to place the On Button close to your image target so you don't have to zoom out as much.
 
 ## Resources
 Check out our Youtube Tutorial's to use the Toolbox: <b><a href="https://www.youtube.com/watch?v=3wkmBDgpb34&list=PLhL0fv9JyKMaWhaHmm21J6mgpp841zYYw">Using the Spatial Toolbox</a></b>
