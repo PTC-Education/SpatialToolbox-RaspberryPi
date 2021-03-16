@@ -203,7 +203,7 @@
 
 - Turn the Spike Prime on and connect it to the Raspberry Pi if it is not already.
 - When plugging in motors to the Spike Prime, the inverse kinematics solver requires that the motor that controls joint 1 is connected to a port alphabetically higher than the motor that controls joint 2. (If joint 2 is in port D, then joint 1 must be in port A, B, or C). If you have a third motor connected, it must be in a port below the two motors controlling the joints.
-- Additionally, the inverse kinematics solver assumes that your arm's zero position is horizontal with respect to the image target. You can tell the zero position on each Spike motor by the little circles along the outside of the rotating joint.
+- Additionally, the inverse kinematics solver assumes that your arm's zero position is horizontal with respect to the image target. You can tell the zero position on each Spike motor by the little circles along the outside of the rotating joint. The Spike in the gif at the top of this documentation starts in the proper zero position.
 - Re-run the command &quot;node server&quot; within the Raspberry Pi Terminal directory ~/Desktop/RaspberryPi-SpatialToolbox/vuforia-spatial-edge-server.
 - After about 15-20 seconds you should see a message like the screenshot below listing the ports that the motors are connected to.
 
